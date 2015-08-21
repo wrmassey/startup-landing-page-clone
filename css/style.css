@@ -425,3 +425,52 @@ td,
 th {
   padding: 0;
 }
+
+/** BEGIN CSS STYLE SHEET **/
+
+
+/* Navigation*/
+  
+.top-navigation {
+  background-color: #fff;
+}
+
+.top-navigation > .content {
+  width: 970px;
+  height: 70px;
+  margin: 0 auto;
+}
+
+.logo{
+
+}
+
+.Navigation {
+  list-style-type: none;
+  text-align: right;
+
+
+}
+.Navigation li{
+  display: inline;
+  padding-right: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
