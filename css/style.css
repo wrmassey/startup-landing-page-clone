@@ -504,11 +504,24 @@ th {
   padding: 0 .938em;  
   text-align: center;
   font-size: 1em;
+  letter-spacing: .05em;
 }
 
+.big-button{
+  text-shadow: none;
+  border-style: none;
+  border-radius: .3em;
+  padding: 1em 1.8em;
+  line-height: 1.33;
+  background: orange;
+  letter-spacing: .03em;
+  width: 9.668rem;
+}
 
-
-
+.big-button:hover{
+  background: #FF9D00;
+  cursor: pointer;
+}
 
 
 
