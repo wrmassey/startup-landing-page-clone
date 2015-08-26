@@ -438,13 +438,21 @@ th {
   
 .top-navigation {
   background-color: #fff;
+
+}
+
+.content{
+  margin: 0 auto;
+  width: 60rem;
+ 
 }
 
 .top-navigation > .content {
-  width: 60rem;
   height: 4.375rem;
-  margin: 0 auto;
   padding: 0 1em;
+
+
+
 }
 
 .logo{
@@ -486,10 +494,17 @@ th {
   background-position: center bottom;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 45.938rem;
+  height: 35.938rem;
+  overflow: auto;
+  padding-top: 11em;
 }
 
-
+.introduction > .content{
+  color: white;
+  padding: 0 .938em;  
+  text-align: center;
+  font-size: 1em;
+}
 
 
 
