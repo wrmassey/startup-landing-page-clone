@@ -497,14 +497,14 @@ th {
   background-position: center bottom;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 35.938rem;
+  height: 45.938rem;
   overflow: auto;
   padding-top: 11em;
 }
 
 .introduction > .content{
   color: white;
-  padding: 0 .938em;  
+  padding: 7em .938em;  
   text-align: center;
   font-size: 1em;
   letter-spacing: .05em;
@@ -512,6 +512,15 @@ th {
 
 .introduction h1,h3{
   font-weight: 100;
+}
+
+.introduction h1{
+  font-size:3em;
+  margin: .3em 0;
+}
+
+.introduction h3{
+  font-size: 1.5em;
 }
 
 .big-button{
@@ -529,6 +538,8 @@ th {
   background: #FF8000;
   cursor: pointer;
 }
+
+/** Icons **/
 
 .cases > .content {
   text-align: center;
@@ -559,6 +570,66 @@ th {
   font-weight: 300;
   letter-spacing: .03em;
   font-size: 1.2em;
+}
+
+/** Footer **/
+
+.social {
+  margin-bottom: 10em;
+
+}
+
+.social .content{
+  text-align: center;
+  margin-top: 8em;
+  border-top: 1px solid #eaebec;
+  width: 50em;
+  padding-top: 1em
+}
+
+.social .content h3{
+  font-size: .9em;
+  font-weight: 500;
+  letter-spacing: .02em;
+}
+
+.social .icons{
+  list-style: none;
+  padding-left: 0;
+
+}
+
+.social .icons li{
+    padding: .625rem 0;
+    border: 1px solid #eaebec;
+    box-sizing: border-box;
+    border-radius: 1.25rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    display: inline-block;
+    margin: 1.45rem .3em;
+    text-align: center;
+}
+
+
+.twitter{
+  color: #55acee;
+}
+
+.facebook{
+  color: #4c66a4;
+}
+
+.instagram{
+  color: #3f729b;
+}
+
+
+.social .copyright{
+  font-size: .8rem;
+  font-weight: 100;
+  color: #838994;
+  margin-top: -1em;
 }
 
 
