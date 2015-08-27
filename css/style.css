@@ -438,6 +438,9 @@ th {
   
 .top-navigation {
   background-color: #fff;
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
 
 }
 
@@ -507,6 +510,10 @@ th {
   letter-spacing: .05em;
 }
 
+.introduction h1,h3{
+  font-weight: 100;
+}
+
 .big-button{
   text-shadow: none;
   border-style: none;
@@ -519,13 +526,40 @@ th {
 }
 
 .big-button:hover{
-  background: #FF9D00;
+  background: #FF8000;
   cursor: pointer;
 }
 
+.cases > .content {
+  text-align: center;
+  margin-top: 6em;
+}
+
+.cases .devices li{
+  width: 30%;
+  display: inline-block;
+  margin-top: 2em;
+ 
+}
+
+.devices img{
+  width: 127px;
+  height: 127px;
+}
 
 
+.cases h2{
+  font-weight: 200;
+  font-size: 2.2em;
+  letter-spacing: 0.03em;
 
+}
+
+.captions{
+  font-weight: 300;
+  letter-spacing: .03em;
+  font-size: 1.2em;
+}
 
 
 
